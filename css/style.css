@@ -244,3 +244,20 @@ body{
  .teratwo:hover{
    opacity: 98%;
  }
+
+@media(max-width:480px ) {
+  .teratwo{
+    max-width: 220px;
+    max-height:380px ;
+  }
+  .tera{
+    max-width: 220px;
+    max-height:380px ;
+  }
+  .cora{
+    gap: 10px;
+  }
+  .img,.imgtwo{
+    max-width: 100px;
+  }
+}
