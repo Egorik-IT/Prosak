@@ -174,7 +174,7 @@ body{
  .reta{
   padding-bottom: 60px;
   position: relative;
-  top: 600px;
+  top: 540px;
   bottom: 60px;
   display: flex;
   justify-content: center;
@@ -230,7 +230,7 @@ body{
  .retatwo{
   padding-bottom: 60px;
   position: relative;
-  top: 600px;
+  top: 540px;
   bottom: 60px;
   display: flex;
   justify-content: center;
@@ -262,7 +262,7 @@ body{
     max-width: 100px;
   }
   .reta,.retatwo{
-    top: 510px;
+    top: 410px;
   }
   .textil,.textiltwo{
     font size: 18px;
