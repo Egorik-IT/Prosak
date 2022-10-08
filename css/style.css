@@ -247,17 +247,17 @@ body{
 
 @media(max-width:480px ) {
   .teratwo{
-    max-width: 220px;
-    max-height:380px ;
+    max-width: 180px;
+    max-height:340px ;
   }
   .tera{
-    max-width: 220px;
-    max-height:380px ;
+    max-width: 180px;
+    max-height:340px ;
   }
   .cora{
     gap: 10px;
   }
   .img,.imgtwo{
-    max-width: 100px;
+    max-width: 90px;
   }
 }
