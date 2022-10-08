@@ -1,0 +1,138 @@
+body{
+  background: url(../img/1620071373_2-phonoteka_org-p-znaki-voprosa-fon-2.jpg);
+}
+
+
+
+.predosnova{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.predcontent{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+/*------------------Ты дурак?--------------------------------------------------------------------*/
+.Youshit {
+  border: 7px red dotted;
+  margin: auto;
+  width: max-content;
+  background-color: rgba(48, 48, 48, 0.699);
+  border-radius: 20px;
+  
+}
+.text{
+  font-size: 50px;
+  color: rgb(25, 0, 255);
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+/*---------------СЛОВА-------------------------------------*/
+.oboloshka{
+  padding: 30px;
+  border: 6px rgba(255, 0, 0, 0.452) solid;
+  max-width: 100px;
+  max-height: 60px;
+  background-color: rgba(255, 0, 0, 0.486);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  top: 440px;
+}
+.oboloshka:hover{
+  cursor: pointer;
+  max-width: 95px;
+  min-height: 55px;
+  background-color: rgba(255, 0, 0, 0.479);
+ animation: infinite;
+}
+.oboloshkatwo{
+  padding: 30px;
+  border: 6px rgba(255, 0, 0, 0.452) solid;
+  max-width: 100px;
+  max-height: 60px;
+  background-color: rgba(255, 0, 0, 0.486);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  cursor: pointer;
+  position: relative;
+  top: 20px;
+}
+.oboloshkatwo:hover{
+  cursor: default;
+  max-width: 95px;
+  min-height: 55px;
+  background-color: rgba(255, 0, 0, 0.479);
+ animation: infinite;
+ opacity: 0%;
+}
+.oboloshkathree{
+  padding: 30px;
+  border: 6px rgba(255, 0, 0, 0.452) solid;
+  max-width: 100px;
+  max-height: 60px;
+  background-color: rgba(255, 0, 0, 0.486);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  opacity: 0%;
+}
+.oboloshkathree:hover{
+  cursor: default;
+  max-width: 95px;
+  min-height: 55px;
+  background-color: rgba(129, 129, 129, 0.479);
+ animation: infinite;
+}
+
+/*-----------------Пропадание-------------------------------------------------*/
+
+
+.oboloshkatwo:active{
+  opacity: 0%;
+}
+  .oboloshkatwo:hover~.oboloshkathree{
+    opacity: 100%;
+  }
+  .oboloshkafore:active{
+    opacity: 0%;
+  }
+  .oboloshkafore:hover~.oboloshkafive{
+    opacity: 100%;
+  }
+
+  .oboloshkafore:focus{
+ opacity: 0%;
+  }
+
+  .imgj{
+    transition: 0.5s;
+  transition-delay: 1s;
+    opacity: 0%;
+  }
+.oboloshka:active~.imgj{
+ opacity: 100%;
+}
+.oboloshka:hover~.imgj{
+  opacity: 100%;
+ }
