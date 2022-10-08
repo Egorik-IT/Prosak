@@ -137,3 +137,110 @@ body{
 .oboloshka:hover~.imgj{
   opacity: 100%;
  }
+
+/*----------------------------------------------*/
+
+
+.tera{
+  border: 9px solid black;
+  max-width: 400px;
+  max-height: 550px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  background-color: rgb(77, 77, 77);
+  transition: 0.5s;
+  opacity: 80%;
+ }
+
+ .img{
+  max-width: 200px;
+  padding-bottom: 20px;
+  
+ }
+
+ .textil{
+  padding: 15px;
+  font-size: 30px;
+  color: rgba(255, 0, 0, 0.938);
+  font-style: italic;
+  font-weight: 800;
+ }
+
+ .reta{
+  padding-bottom: 60px;
+  position: relative;
+  top: 670px;
+  bottom: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .tera:hover{
+  animation: infinite;
+  background-color: rgba(160, 160, 160, 0.808);
+ }
+ 
+ .tera:hover{
+   opacity: 98%;
+ }
+
+.cora{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+/*----------------------*/
+.teratwo{
+  border: 9px solid black;
+  max-width: 400px;
+  max-height: 550px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  background-color: rgb(77, 77, 77);
+  transition: 0.5s;
+  opacity: 80%;
+ }
+
+ .imgtwo{
+  max-width: 200px;
+  padding-bottom: 20px;
+  
+ }
+
+ .textiltwo{
+  padding: 15px;
+  font-size: 30px;
+  color: rgba(255, 0, 0, 0.938);
+  font-style: italic;
+  font-weight: 800;
+ }
+
+ .retatwo{
+  padding-bottom: 60px;
+  position: relative;
+  top: 670px;
+  bottom: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .teratwo:hover{
+  animation: infinite;
+  background-color: rgba(160, 160, 160, 0.808);
+ }
+ 
+ .teratwo:hover{
+   opacity: 98%;
+ }
