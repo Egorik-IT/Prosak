@@ -150,7 +150,7 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 50px;
+  padding: 30px;
   background-color: rgb(77, 77, 77);
   transition: 0.5s;
   opacity: 80%;
@@ -158,7 +158,7 @@ body{
 
  .img{
   max-width: 200px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   
  }
 
@@ -206,7 +206,7 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 50px;
+  padding: 30px;
   background-color: rgb(77, 77, 77);
   transition: 0.5s;
   opacity: 80%;
@@ -214,7 +214,7 @@ body{
 
  .imgtwo{
   max-width: 200px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   
  }
 
@@ -247,12 +247,12 @@ body{
 
 @media(max-width:480px ) {
   .teratwo{
-    max-width: 180px;
-    max-height:340px ;
+    max-width: 120px;
+    max-height:280px ;
   }
   .tera{
-    max-width: 180px;
-    max-height:340px ;
+    max-width: 120px;
+    max-height:280px ;
   }
   .cora{
     gap: 10px;
