@@ -128,8 +128,9 @@ body{
 
   .imgj{
     transition: 0.5s;
-  transition-delay: 1s;
+    transition-delay: 1s;
     opacity: 0%;
+    border-radius: 20px;
   }
 .oboloshka:active~.imgj{
  opacity: 100%;
@@ -247,11 +248,11 @@ body{
 
 @media(max-width:480px ) {
   .teratwo{
-    max-width: 140px;
+    max-width: 150px;
     max-height:280px ;
   }
   .tera{
-    max-width: 140px;
+    max-width: 150px;
     max-height:280px ;
   }
   .cora{
