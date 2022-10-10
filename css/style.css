@@ -155,6 +155,7 @@ body{
   background-color: rgb(77, 77, 77);
   transition: 0.5s;
   opacity: 80%;
+  text-align: center;
  }
 
  .img{
@@ -211,6 +212,7 @@ body{
   background-color: rgb(77, 77, 77);
   transition: 0.5s;
   opacity: 80%;
+  text-align: center;
  }
 
  .imgtwo{
@@ -225,7 +227,6 @@ body{
   color: rgba(255, 0, 0, 0.938);
   font-style: italic;
   font-weight: 800;
-   text-align: center;
  }
 
  .retatwo{
